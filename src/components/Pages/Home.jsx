@@ -2,9 +2,17 @@
 import './Home.css'
 const Home = () => {
   return (
-    <div>
-      <h2>welcome our page</h2>
+    <div className='home-container'>
+
+      <div className="text">
+        GEARS FOR<br />
+        MOTORCYCLES
+      </div>
+      
+      <button className='text-button'>DISCOVER MORE</button>
+
     </div>
+
   )
 }
 

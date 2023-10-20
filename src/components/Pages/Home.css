@@ -1,26 +1,40 @@
 /* Home.css */
 
-body {
-    background-image: url('../assets/images/3.jpg');/* Replace with the actual image path */
-  background-size: cover; /* Adjust the background size as needed */
-  background-repeat: noss-repeat; /* Prevent the image from repeating */
-  background-attachment: fixed; 
-}
+/* Home.css */
 .home-container {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .home-image {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-  }
-  
-  h2 {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  /* You can adjust these styles to fit your design preferences. */
+  position: relative;/* Creates the position for the context*/
+  background-image: url('/src/assets/images/3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+/* Styling for the text */
+.text {
+  position: absolute;/* Containes the text absolutely in the container */
+  text-align: left; 
+  color: #3A7EBC; 
+  font-size: 68px;
+  font-weight: bold;
+  margin-right: 0%;
+  top: 30%;
+  left: 20%; 
+  transform: translate(-50%, -50%);
+}
+
+/* Styling for the Button */
+.text-button {
+  position: absolute;
+  background-color: #3a7dbc9a;
+  width: 318px;
+  height: 78px;
+  border-radius: 50px;
+  border: 1px solid #3a7dbc;
+  top: 40%;
+  left: 6%;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
   
