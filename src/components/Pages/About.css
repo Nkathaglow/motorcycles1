@@ -1,0 +1,73 @@
+.about-container {
+    background: #272626;
+    height: 100vh;
+}
+
+.about-class1 {
+    height: 40%;
+}
+
+.class1-text {
+    position: relative;
+    font-size: 30px;
+    color: #fff;
+    top: 40%;
+    left: 53%;
+    width: 40%;
+}
+
+.class1-text h3 {
+    color: #0A83F2;
+}
+
+.class1-image {
+    position: relative;
+    background-image: url(/src/assets/images/bike5.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 16%;
+    height: 90%;
+    border-radius: 20px;
+    left: 10%;
+}
+
+.button1,
+.button2 {
+    position: relative;
+    background-color: #0a82f271;
+    padding: 15px;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid #0A83F2;
+    margin-right: 20px;
+    top: 50px;
+}
+
+.about-class2 {
+    position: relative;
+    top: 10%;
+    height: 40%;
+}
+
+.class2-text {
+    position: relative;
+    font-size: 30px;
+    top: 20%;
+    left: 10%;
+    color: #fff;
+}
+
+.class2-text h3 {
+    color: #0A83F2;
+}
+
+.class2-image {
+    position: relative;
+    background-image: url(/src/assets/images/bike7.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 16%;
+    height: 90%;
+    border-radius: 20px;
+    left: 53%;
+}
